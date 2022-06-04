@@ -2,7 +2,9 @@ body section{
     background-color: white;
     display: grid;
     width: 350px;
-    margin: 0 auto;
+    margin: 20px auto 20px auto;
+    border-radius: 15px;
+    
 }
 body{
     background-color: black;
@@ -15,7 +17,7 @@ header{
     background-color: black;
     color: white;
 }
-header div img{
+header img{
     height: 250px;
     width: 100%;
     object-fit: cover;
@@ -42,4 +44,8 @@ footer button:nth-child(1), footer button:nth-child(2){
     padding: 20px;
     margin: 2px;
     font-size: 1.2rem;
+    width: 150px;
+    border-radius: 15px;
+    background-color: #018CEF;
+
 }
